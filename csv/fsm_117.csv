@@ -1,0 +1,22 @@
+State,Total time,Transitions,,,,,,,,,,,,,,,
+initial_state,4.79,"([('husky', 'happiness')], 'neutral', 4.79, 0)",,,,,,,,,,,,,,,
+anger,0,,,,,,,,,,,,,,,,
+fear,0,,,,,,,,,,,,,,,,
+sadness,0,,,,,,,,,,,,,,,,| A | B | C | D | Cumple con CAB | Cumple con CBC | Cumple con CBD | Cumple con CCD | Cumple con Todas las Restricciones |
+surprise,0,,,,,,,,,,,,,,,,|---|---|---|---|---------------|---------------|---------------|---------------|----------------------------------|
+neutral,62.36,"([('husky', 'happiness')], 'happiness', 32.28, 1)",,,,,,,,,,,,,,,| 1 | 1 | 1 | 1 | Sí            | Sí            | No            | No            | No                               |
+disgust,0,,,,,,,,,,,,,,,,| 1 | 1 | 1 | 2 | Sí            | Sí            | No            | Sí            | No                               |
+happiness,64.52,"([('husky', 'happiness'), ('paint', 'neutral'), ('cat', 'surprise')], 'neutral', 64.52, 2)",,,,,,,,,,,,,,,| 1 | 1 | 2 | 1 | Sí            | No            | No            | Sí            | No                               |
+,,,,,,,,,,,,,,,,,| 1 | 1 | 2 | 2 | Sí            | No            | No            | Sí            | No                               |
+,,,,,,,,,,,,,,,,,| 1 | 2 | 1 | 1 | Sí            | Sí            | No            | No            | No                               |
+,,,,,Describri el escenario del caso de uso con todos sus elementos,,,,Detector de emociones,,,Risk control y dos articulos leidos,,,,,| 1 | 2 | 1 | 2 | Sí            | Sí            | No            | No            | No                               |
+,,,,,"Todos los elementos del CDS: perceptor(qué debería tener, redes de convolucion, qué fluye en la entrada y en la salida), memoria de trabajo, y actuador. Los elementos de risk control y asociarlo al caso de estudio. Cajita de ML, lazo de control, ",,,,Movimiento,,,,,,,,| 1 | 2 | 2 | 1 | Sí            | No            | No            | No            | No                               |
+,,,,,,,,,WM: Bloque de FSM,,,,,,,,| 1 | 2 | 2 | 2 | Sí            | Sí            | No            | Sí            | No                               |
+,,,,,,,,,,,,,,,,,| 2 | 1 | 1 | 1 | No            | Sí            | No            | No            | No                               |
+,,,,,,,,,,,,,,,,,| 2 | 1 | 1 | 2 | No            | Sí            | No            | No            | No                               |
+,,,,,,,,,,,,,,,,,| 2 | 1 | 2 | 1 | No            | No            | No            | No            | No                               |
+,,,,,,,,,,,,,,,,,| 2 | 1 | 2 | 2 | No            | No            | No            | No            | No                               |
+,,,,,,,,,,,,,,,,,| 2 | 2 | 1 | 1 | No            | Sí            | No            | No            | No                               |
+,,,,,,,,,,,,,,,,,| 2 | 2 | 1 | 2 | No            | Sí            | No            | No            | No                               |
+,,,,,,,,,,,,,,,,,| 2 | 2 | 2 | 1 | No            | No            | No            | No            | No                               |
+,,,,,,,,,,,,,,,,,| 2 | 2 | 2 | 2 | No            | Sí            | Sí            | Sí            | No                               |

@@ -1,0 +1,43 @@
+// Máquina de Estados Finita
+digraph {
+	initial_state [label="State: initial_state
+Total time: 3.98 seconds"]
+	initial_state -> anger [label="0 - State time: 3.98
+Imagen: husky
+Target Emotion: happiness
+"]
+	anger [label="State: anger
+Total time: 52.93 seconds"]
+	anger -> neutral [label="1 - State time: 21.31
+Imagen: husky
+Target Emotion: happiness
+"]
+	anger -> neutral [label="3 - State time: 31.62
+Imagen: husky
+Target Emotion: happiness
+Imagen: paint
+Target Emotion: neutral
+"]
+	fear [label="State: fear
+Total time: 0 seconds"]
+	sadness [label="State: sadness
+Total time: 0 seconds"]
+	surprise [label="State: surprise
+Total time: 0 seconds"]
+	neutral [label="State: neutral
+Total time: 63.06 seconds"]
+	neutral -> anger [label="2 - State time: 31.44
+Imagen: husky
+Target Emotion: happiness
+"]
+	neutral -> happiness [label="4 - State time: 31.62
+Imagen: paint
+Target Emotion: neutral
+Imagen: cat
+Target Emotion: surprise
+"]
+	disgust [label="State: disgust
+Total time: 0 seconds"]
+	happiness [label="State: happiness
+Total time: 22.63 seconds"]
+}

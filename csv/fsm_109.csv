@@ -1,0 +1,9 @@
+State,Total time,Transitions
+initial_state,3.96,"([('husky', 'happiness')], 'neutral', 3.96, 0)"
+anger,10.52,
+fear,0,
+sadness,0,
+surprise,0,
+neutral,35.82,"([('husky', 'happiness'), ('paint', 'neutral'), ('cat', 'surprise')], 'anger', 35.82, 1)"
+disgust,0,
+happiness,0,
